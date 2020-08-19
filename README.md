@@ -34,9 +34,9 @@ $ chmod +x *
  
  $ python3 Virtex.py
 
-Jika sudah selesai mendownload file Virtex anda bisa memindahkan file tersebut menggunakan mc
+• Jika sudah selesai mendownload file Virtex anda bisa memindahkan file tersebut menggunakan mc
 
-Atau anda juga bisa memindahkan nya dengan cara mengetik
+• Atau anda juga bisa memindahkan nya dengan cara mengetik
 
 $ mpv nama virtex.txt /sdcard
 
