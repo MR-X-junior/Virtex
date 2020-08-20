@@ -38,7 +38,7 @@ $ chmod +x *
 
 • Atau anda juga bisa memindahkan nya dengan cara mengetik
 
-$ mpv nama virtex.txt /sdcard
+$ mv nama virtex.txt /sdcard
 
 CONTOHNYA:
 
