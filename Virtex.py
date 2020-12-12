@@ -190,7 +190,7 @@ def BETA():
 			print ('\033[92m[✓] MENGINSTAL BAHAN')
 			a(4)
 			b('python bahan.py')
-			exit('\n\033[92m[✓] FILE : \033[93mVirtex_BETA.py \033[92mSIAP DI GUNAKAN')
+			print('\n\033[92m[✓] FILE : \033[93mVirtex_BETA.py \033[92mSIAP DI GUNAKAN')
 			b('rm Virtex.py')
 		except KeyboardInterrupt:
 			print ('\033[93m[!] UNDUHAN DI BATALKAN')
