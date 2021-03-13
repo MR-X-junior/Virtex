@@ -34,4 +34,4 @@ CONTOHNYA:
 
 mv rv.txt /sdcard
 
-![Screenshot_2020-08-18-21-28-07](https://user-images.githubusercontent.com/68039885/90518759-c20b7c80-e199-11ea-9f83-050ed1d73c02.png)
+![Download Virtex](https://raw.githubusercontent.com/MR-X-junior/Virtex/master/ss.png)
