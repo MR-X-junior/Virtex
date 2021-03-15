@@ -32,6 +32,6 @@ $ mv nama virtex.txt /sdcard
 
 CONTOHNYA:
 
-mv rv.txt /sdcard
+mv v12.txt /sdcard
 
 ![Download Virtex](https://raw.githubusercontent.com/MR-X-junior/Virtex/master/ss.png)
