@@ -4,15 +4,19 @@ Download Virtex Via Termux ^_^
 CARA INSTALL NYA MELALUI TERMUX
 
 
-$ pkg update -y
+$ pkg update
 
-$ pkg upgrade -y
+$ pkg upgrade
 
-$ pkg install git -y
+$ pkg install git
 
 $ pkg install mc
 
-$ pkg install python -y
+$ pkg install python
+
+$ pip3 install bs4
+
+$ pip3 install requests
 
 $ git clone https://github.com/MR-X-Junior/Virtex
 
