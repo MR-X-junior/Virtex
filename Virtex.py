@@ -25,7 +25,7 @@ except ModuleNotFoundError:
 finally:
   from bs4 import BeautifulSoup as parser
 
-UPDATE = "05-11-2021 12:31"
+UPDATE = "10-11-2021 13:07"
 
 if 'linux' in sys.platform:
   r = "\033[91m" # Red
@@ -82,8 +82,8 @@ def main():
       with concurrent.futures.ThreadPoolExecutor(15) as executor:
         executor.map(Moya, files)
       shutil.make_archive('virtex-master','zip','virtex')
-      print ("{p}[{g}✓{p}] {g}Download Complete")
-      exit ("{p}[{g}✓{p}] {g}Download Results Saved In : {os.path.realpath('virtex')}")
+      print (f"{p}[{g}✓{p}] {g}Download Complete")
+      exit (f"{p}[{g}✓{p}] {g}Download Results Saved In : {os.path.realpath('virtex')}")
     elif echa == 'ba':
       menu()
     elif echa == 'ex':
@@ -151,9 +151,11 @@ def menu():
     code = webbrowser.open(url)
     if code:
       time.sleep(0.9)
-      memu()
+      menu()
     else:
       os.system ("xdg-open "+url)
+      time.sleep(0.9)
+      menu()
   elif choice == '3' or choice == '03':
     os.system('clear')
     print (f"{logo}\n{g}INFO SCRIPT\n========================\n{p}[{y}✓{p}] {c}Author: {g}Rahmat adha\n{p}[{y}✓{p}] {c}Team  : {colors()}TNT {colors()}ANONYMOUS {r}INDO{w}NESIA\n{p}[{y}✓{p}] {c}Script: {colors()}{os.path.basename(sys.argv[0])}\n{p}[{y}✓{p}] {c}Path  : {os.path.realpath(sys.argv[0])}\n{p}[{y}✓{p}] {c}Size  : {os.stat(os.path.realpath(sys.argv[0])).st_size} Byte\n{p}[{y}✓{p}] {c}Link  : {colors()}https://github.com/MR-X-Junior/Virtex\n{p}[{y}✓{p}] {c}Update: {colors()}{UPDATE}\n{p}[{y}✓{p}] {c}Versi : 1.1\n\n{g}Contact Me ^_^\n==================\n{p}[{y}✓{p}] {c}Github: {colors()}https://github.com/MR-X-Junior/\n{p}[{y}✓{p}] {c}Fb.   : {colors()}https://www.facebook.com/Anjay.pro098\n{p}[{y}✓{p}] {c}Wa.   : {colors()}+62 85754629509\n{p}[{y}✓{p}] {c}Email : {colors()}termux.indonesia01@gmail.com\n{a}")
